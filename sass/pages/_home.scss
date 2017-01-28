@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    text-transform: uppercase;
+    a, a:hover, a:active {
+        text-decoration: none;
+    }
+    a, h1, h2, h3 {
+        margin: 0;
+    }
+    h1 {
+        line-height: 1;
+        padding-bottom: 25px;
+    }
+    h2 {
+        line-height: 37px;
+    }
+}
+
+.about-us {
+    padding: 90px 0;
+}
+
+.about-us-descrpt {
+    padding: 0 45px;
+    h3 {
+        padding-bottom: 30px;
+    }
+}
+
+

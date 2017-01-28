@@ -1,0 +1,76 @@
+header {
+
+    .navbar-inverse, .navbar-toggle, .navbar-inverse .navbar-form, .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-collapse {
+        background-color: transparent;
+        border: none;
+    }
+
+    .navbar-collapse.collapse {
+        margin-right: 60px;
+    }
+
+    .navbar-inverse {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        height: 0;
+        margin-top: -12px;
+        line-height: 0;
+    }
+
+    .navbar-inverse .navbar-nav li a, .navbar-link a {
+        color: white;
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                padding: 0 0 0 40px;
+            }
+        }
+    }
+
+    .navbar-link .phone {
+        padding-left: 30px;
+        @include bg('../images/phone-icon.png');
+        background-position: center left;
+    }
+
+    .email {
+        @include bg('../images/email-icon.png');
+        background-position-y: 4px;
+        padding: 15px;
+        border-radius: 50%;
+        background-color: #03b6e7;
+        border: 1px solid #03b6e7;
+        float: right;
+        margin-left: 22px;
+        margin-top: -7px;
+
+    }
+
+    .navbar-inverse a, .navbar-inverse .navbar-nav li a {
+        &:focus, &:hover {
+            color: #ffac55;
+            background-color: transparent;
+            transition: 0.6s;
+        }
+    }
+}
+
+/*@media screen and (max-width: 1800px) {
+    header {
+        .navbar-inverse .navbar-nav li a {
+            padding: 14px 0;
+            font-size: 12px;
+        }
+    }
+}
+
+*/

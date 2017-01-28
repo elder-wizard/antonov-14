@@ -1,0 +1,13 @@
+@mixin bg($image) {
+    background: url($image) no-repeat center center;
+}
+
+/*@mixin bg-small-img($image,
+$height: 100vh,
+$bg-pos: center center) {
+    background: linear-gradient( to bottom, rgba(85,85,85,0.6),rgba(85,85,85,0.6)),
+    url($image) no-repeat $bg-pos;
+    height: $height;
+    background-size: cover;
+}
+*/

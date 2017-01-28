@@ -1,0 +1,43 @@
+body {
+    font-family: $first-font;
+}
+
+p, .popup-title, .designation, .copyright,
+.blog time, .quick-contact span {
+    font-family: $second-font;
+    text-transform: none;
+}
+
+.button, .social, footer .placeholder, footer .list {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h3, .testimonials h3 {
+    font-size: 32px;
+}
+
+.slider-1 h3, footer h3, .popup-title {
+    font-size: 20px;
+}
+
+h2, .slider-1, footer h3, .client, .testimonials h3, h4, .projects aside h4, h4 .features, h3, h2, .slider-1 {
+    font-weight: 700;
+}
+
+nav li a, .contacts, .testimonials p, .projects aside p, .projects .button, .popup-title, .button, .descr, h1,
+.designation, .blog time, .quick-contact span, footer .list, footer .placeholder, footer p, .copyright, .social {
+    font-weight: 400;
+}
+

@@ -1,0 +1,19 @@
+body, .slider-1 h3 {
+    color: #ffffff;
+}
+
+h3, .quick-contact span, .blog time, h4 {
+    color: #343a3b;
+}
+
+p {
+    color: #838b8c;
+}
+
+header .navbar-inverse .navbar-link .email, .button button {
+    &:hover {
+        transition: 0.6s;
+        background-color: #ffac55;
+        border: 1px solid #ffac55;
+    }
+}
